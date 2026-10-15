@@ -1,0 +1,426 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos | Víctor Rodríguez Ortiz</title>
+</head>
+
+<body>
+    <a href="#contenido">Saltar al contenido</a>
+
+    <header>
+        <h1>Víctor Rodríguez Ortiz</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="sobre_mi.html">Sobre Mí</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contenido" tabindex="-1">
+
+        <h1>Proyectos</h1>
+
+
+        <nav aria-label="Categorías de proyectos">
+            <ul>
+                <li><a href="#universidad">Universidad</a></li>
+                <li><a href="#practicas">Prácticas</a></li>
+                <li><a href="#personales">Proyectos personales</a></li>
+            </ul>
+        </nav>
+
+        <!-- UNIVERSIDAD -->
+        <section id="universidad">
+            <h2>Universidad</h2>
+
+            <article class="proyecto"
+                     id="epanet"
+                     data-anio="2025"
+                     data-tecnologia="Python">
+
+                <h3>EPANET: Predicción de la demanda eléctrica</h3>
+
+                <figure>
+                    <img src="img/epanet.png"
+                         alt="Captura del proyecto EPANET"
+                         width="400">
+                    <figcaption>
+                        Análisis de la demanda eléctrica y detección de anomalías.
+                    </figcaption>
+                </figure>
+
+                <p>
+                    Proyecto de análisis de datos para predecir la demanda
+                    eléctrica y detectar diferencias entre la demanda real
+                    y la programada. Aprendí a entrenar modelos predictivos,
+                    evaluar sus resultados y representar los datos en Power BI.
+                </p>
+
+                <ul>
+                    <li>Python</li>
+                    <li>SQL y MySQL</li>
+                    <li>Power BI</li>
+                    <li>Machine Learning</li>
+                </ul>
+            </article>
+
+            
+            <article id="meteorologia" class="proyecto" data-anio="2026" data-tecnologia="Python">
+
+                <h3>Detección de fenómenos meteorológicos extremos</h3>
+
+                <figure>
+                    <img src="img/meteorologia.png"
+                        alt="Visualización de datos meteorológicos para detectar fenómenos extremos"
+                        width="400">
+                    <figcaption>
+                        Análisis de variables meteorológicas para anticipar episodios extremos.
+                    </figcaption>
+                </figure>
+
+                <p>
+                    Trabajo de Fin de Grado centrado en la detección temprana de
+                    fenómenos meteorológicos extremos mediante técnicas de aprendizaje
+                    automático. El objetivo es analizar variables meteorológicas
+                    históricas, identificar patrones asociados a eventos extremos y
+                    estudiar la capacidad predictiva de distintos modelos.
+                    El proyecto contempla la preparación de datos procedentes de
+                    fuentes meteorológicas, la creación de variables predictivas y
+                    la evaluación de los resultados mediante métricas adecuadas
+                    para la detección de eventos poco frecuentes. Además se realiza un Dashboard interactivo 
+                    para visualizar los resultados y facilitar la interpretación de los modelos.
+                    Aprendí a trabajar con datos meteorológicos multidimensionales, a aplicar técnicas de 
+                    aprendizaje automático y a comunicar los resultados de manera efectiva.
+                </p>
+
+                <p>Tecnologías utilizadas:</p>
+                <ul>
+                    <li>Python</li>
+                    <li>Pandas y NumPy</li>
+                    <li>Xarray para datos meteorológicos multidimensionales</li>
+                    <li>Streamlit</li>
+                    <li>Scikit-learn</li>
+                </ul>
+
+                <p>
+                    <a href="https://github.com/Victorrodriguezortiz/Deteccion_Fenomenos_Meteorologicos_Extremos"
+                    target="_blank"
+                    rel="noopener">
+                        Ver repositorio del proyecto
+                    </a>
+                </p>
+
+            </article>
+
+            <article id="lumina" class="proyecto en-curso" data-anio="2026" data-tecnologia="IoT">
+
+                <h3>Lumina: Sistema de Supervisión IoT <mark>En curso</mark></h3>
+
+                <figure>
+                    <img src="img/lumina.png"
+                        alt="Captura del proyecto Lumina"
+                        width="400">
+                    <figcaption>
+                        Plataforma de supervisión IoT para supermercados y aparcamientos.
+                    </figcaption>
+                </figure>
+
+                <p>
+                    Diseño e implementación de un sistema de supervisión IoT para
+                    establecimientos comerciales y aparcamientos. Integra sensores
+                    de distancia ultrasónicos, conteo de aforo por infrarrojos,
+                    control de temperatura con histéresis y cámaras ESP32-CAM.
+                    El sistema utiliza un backend con FastAPI y una interfaz web
+                    desarrollada con Streamlit, con control de acceso para tres roles.
+                    Este proyecto me permite aprender a diseñar arquitecturas IoT
+                    desacopladas, gestionar datos y coordinar tareas mediante
+                    metodologías ágiles.
+                </p>
+
+                <p>Tecnologías utilizadas:</p>
+                <ul>
+                    <li>ESP32 (C++ y Arduino)</li>
+                    <li>Python 3.12, NiceGUI y FastAPI</li>
+                    <li>Sensores DHT22, HC-SR04 y FC-51</li>
+                    <li>JSON y MySQL</li>
+                    <li>Scrum y Jira</li>
+                </ul>
+
+                <p>
+                    <a href="https://github.com/laurapovedan22/proyecto_informatica"
+                    target="_blank"
+                    rel="noopener">
+                        Ver repositorio del proyecto
+                    </a>
+                </p>
+
+            </article>
+        </section>
+
+        <!-- PRÁCTICAS -->
+        <section id="practicas">
+            <h2>Prácticas</h2>
+
+            <article class="proyecto"
+                    id="naphtha"
+                    data-anio="2026"
+                    data-tecnologia="Python">
+
+                <h3>Predicción del Spread E/W de Naphtha</h3>
+
+                <figure>
+                    <img src="img/spread_naphtha.png"
+                        alt="Gráfico de predicción temporal del spread East-West de naphtha"
+                        width="400">
+                    <figcaption>
+                        Predicción de series temporales y análisis de dinámicas de arbitraje
+                        del spread E/W de naphtha.
+                    </figcaption>
+                </figure>
+
+                <p>
+                    Proyecto de análisis predictivo centrado en estimar la evolución
+                    del diferencial de precios este-oeste (East/West spread) de la
+                    nafta. Se utilizan modelos de series temporales y técnicas de
+                    aprendizaje automático para identificar patrones en los datos
+                    y apoyar la toma de decisiones relacionadas con el arbitraje
+                    comercial. Este proyecto me permitió trabajar con datos de mercado,
+                    analizar tendencias temporales y evaluar la utilidad de los modelos
+                    predictivos en un contexto de trading.
+                </p>
+
+                <p>Tecnologías utilizadas:</p>
+                <ul>
+                    <li>Python</li>
+                    <li>Pandas y NumPy</li>
+                    <li>Series temporales</li>
+                    <li>Machine Learning</li>
+                </ul>
+
+            </article>
+
+            
+            <article class="proyecto"
+                    id="graphrag"
+                    data-anio="2026"
+                    data-tecnologia="Python">
+
+                <h3>GraphRAG: Anonimización de datos y consultas sobre grafos</h3>
+
+                <figure>
+                    <img src="img/graphrag.png"
+                        alt="Esquema ilustrativo de un sistema GraphRAG conectado a una base de datos de grafos"
+                        width="400">
+                    <figcaption>
+                        Aplicación de GraphRAG para consultar información mediante lenguaje natural.
+                    </figcaption>
+                </figure>
+
+                <p>
+                    Colaboración en dos proyectos basados en tecnologías GraphRAG,
+                    relacionados con información de clientes y documentación del ámbito
+                    legal. Aunque tenían objetivos diferentes, ambos compartían tareas
+                    de tratamiento de datos y consulta de información mediante grafos.
+                    Mi trabajo de apoyo se centró en la anonimización de datos sensibles
+                    para proteger la privacidad y en mejorar el determinismo del LLM de las
+                    consultas generadas a partir de preguntas en lenguaje natural,
+                    transformándolas en consultas Cypher para recuperar información
+                    de la base de datos de grafos.
+                </p>
+
+                <p>Tecnologías y áreas de trabajo:</p>
+                <ul>
+                    <li>Python</li>
+                    <li>GraphRAG y modelos de lenguaje</li>
+                    <li>Cypher y NEO4J</li>
+                    <li>Anonimización y protección de datos</li>
+                    <li>Procesamiento de lenguaje natural (NLP)</li>
+                </ul>
+
+            </article>
+
+        </section>
+
+        <!-- Personales -->
+        <section id="personales">
+            <h2>Proyectos personales</h2>
+
+            <article class="proyecto"
+                    id="glp"
+                    data-anio="2026"
+                    data-tecnologia="Python">
+
+                <h3>Análisis predictivo del coste deltransporte marítimo de GLP</h3>
+
+                <figure>
+                    <img src="img/glp.png"
+                        alt="Análisis de variables relacionadas con el transporte marítimo de GLP"
+                        width="400">
+                    <figcaption>
+                        Estudio de variables para analizar la viabilidad de predecir un índice
+                        de transporte marítimo de GLP.
+                    </figcaption>
+                </figure>
+
+                <p>
+                    Proyecto de análisis de datos centrado en estudiar la viabilidad de
+                    predecir un índice relacionado con el transporte marítimo de gas
+                    licuado de petróleo (GLP) en la ruta entre el golfo de Estados Unidos
+                    y Japón. El trabajo consiste en explorar distintas variables,
+                    analizar sus relaciones con el índice objetivo e identificar
+                    información potencialmente útil para desarrollar modelos predictivos
+                    que apoyen la toma de decisiones comerciales.
+                </p>
+
+                <p>Tecnologías utilizadas:</p>
+                <ul>
+                    <li>Python</li>
+                    <li>Pandas y NumPy</li>
+                    <li>Análisis exploratorio de datos</li>
+                    <li>Machine Learning</li>
+                    <li>Análisis de series temporales</li>
+                </ul>
+
+            </article>
+
+        </section>
+        
+        <!-- CÓMO TRABAJO -->
+        <section id="como-trabajo">
+            <h2>Cómo trabajo</h2>
+
+            <p>
+                En mis proyectos intento seguir un proceso ordenado, desde la
+                comprensión del problema hasta la evaluación de los resultados.
+            </p>
+
+            <ol>
+                <li>
+                    <strong>Comprender el problema:</strong>
+                    definir los objetivos, identificar las necesidades y determinar
+                    qué resultado se quiere conseguir.
+                </li>
+
+                <li>
+                    <strong>Recopilar y preparar los datos:</strong>
+                    buscar las fuentes de información y comprobar la calidad de los datos.
+                    <ul>
+                        <li>Detectar valores ausentes o inconsistencias.</li>
+                        <li>Limpiar y transformar los datos.</li>
+                        <li>Seleccionar las variables relevantes para el análisis.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <strong>Desarrollar la solución:</strong>
+                    programar, analizar los datos y aplicar las técnicas adecuadas
+                    según las características de cada proyecto.
+                </li>
+
+                <li>
+                    <strong>Evaluar los resultados:</strong>
+                    comprobar el funcionamiento de la solución, comparar resultados
+                    y detectar posibles errores o mejoras.
+                </li>
+
+                <li>
+                    <strong>Comunicar las conclusiones:</strong>
+                    documentar el trabajo y presentar los resultados mediante
+                    visualizaciones o interfaces que faciliten su interpretación.
+                </li>
+            </ol>
+        </section>
+        
+        <!-- TABLA RESUMEN -->
+        <section id="resumen">
+            <h2>Resumen de proyectos</h2>
+
+            <table>
+                <caption>
+                    Resumen de proyectos, categorías, años y tecnologías principales
+                </caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Proyecto</th>
+                        <th scope="col">Categoría</th>
+                        <th scope="col">Año</th>
+                        <th scope="col">Tecnología principal</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">EPANET: Predicción de la demanda eléctrica</th>
+                        <td>Universidad</td>
+                        <td>2025</td>
+                        <td>Python</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Detección de fenómenos meteorológicos extremos</th>
+                        <td>Universidad</td>
+                        <td>2026</td>
+                        <td>Python</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">LUMINA: Sistema de Supervisión IoT</th>
+                        <td>Universidad</td>
+                        <td>2026</td>
+                        <td>IoT</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Predicción del Spread E/W de Naphtha</th>
+                        <td>Prácticas</td>
+                        <td>2026</td>
+                        <td>Python</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">GraphRAG: Anonimización y consultas sobre grafos</th>
+                        <td>Prácticas</td>
+                        <td>2026</td>
+                        <td>Python</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Análisis predictivo del coste del transporte marítimo de GLP</th>
+                        <td>Personal</td>
+                        <td>2026</td>
+                        <td>Python</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <th scope="row" colspan="3">Total de proyectos</th>
+                        <td>6</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            <a href="index.html">Volver a la página principal</a>
+        </p>
+
+        <small>
+            &copy; 2026 Víctor Rodríguez Ortiz.
+            Todos los derechos reservados.
+        </small>
+    </footer>
+
+</body>
+</html>
