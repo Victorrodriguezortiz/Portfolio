@@ -2,7 +2,7 @@ Portfolio Personal — Actividad 4
 
 Autor: Víctor Rodríguez Ortiz
 
-URL pública de GitHub Pages: [Añadir URL pública aquí]
+URL pública de GitHub Pages: https://victorrodriguezortiz.github.io/Portfolio/index.html
 
 Estructura y contenido del sitio
 
@@ -12,9 +12,9 @@ index.html (Portada)
 
 proyectos.html (Proyectos)
 
-sobre-mi.html (Sobre mí):
+sobre-mi.html (Sobre mí)
 
-contacto.html (Contacto):
+contacto.html (Contacto)
 
 Fuentes multimedia e imágenes
 
